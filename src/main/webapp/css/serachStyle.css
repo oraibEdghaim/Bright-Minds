@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+
+html {
+   height: 100%;
+}
+
+body {
+display: flex;
+justify-content: left;
+flex-direction: column;
+min-height: 100%;
+font-family: "Times New Roman", Times, serif;
+color: #222222;
+background-color: #919b9b;
+}
+
+.formContainer{
+ width :100%;
+ height : 100%;
+}
+.result{
+	background-color: rgb(197 197 197 / 50%);
+    border: 1px black solid;
+    text-align: start;
+    padding: 10px;
+    width: 50%;
+    height: 60%;
+    overflow-y: auto;
+}
+
+.divResult {
+	margin-top: 177px;
+}
+
+.filters{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* height: 50%; */
+    margin-bottom: -1%;
+}
+.Item{
+  display: flex;  
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.formContainer input[type="submit"] {
+    background-color: #229b9b;
+    color: #eee;
+    font-weight: bold;
+    text-align: center;
+    width: 115px;
+    margin-top: 15px;
+    padding: 4px;
+    position: relative;
+    top: -48px;
+    left: 46%;
+    cursor: pointer;
+}
+.header{
+	text-align: center;
+}
+
+.filterLabel {
+    margin-left: 10px;
+    margin-right: 15px;
+    text-align: right;
+    width: 100px;
+}
+
+
+.formContainer input[type="number"], .formContainer input[type="date"]{
+	width: 20%;
+    height: 30px;
+    text-align: left;
+    border-style: outset;
+    font-size: 12px;
+    color: #00B9BC;
+    margin: 5px;
+    margin-right: 10px;
+    margin-top: -4px;
+    margin-bottom: 13px;
+}
+.fromDateFilter{
+	
+    margin-left: 21px;
+}
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+th{
+	  border: 1px solid black;
+	
+}
+td{
+	border: 1px solid black;
+}	
+input[type="submit"].logout {
+    margin-top: -18%;
+    margin-left: 79%;
+}
+
+* {
+    border-radius: 6px;
+}
+
+input[type="submit"].search {
+    margin-left: 11.5%;
+    margin-top: 0.2%;
+}
+.EmptyResult{
+	text-align: center;
+    font-style: italic;
+    color: cornsilk;
+}
+
+.alert {
+	padding: 20px;
+    background-color: rgb(37 41 45 / 50%);
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
